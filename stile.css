@@ -6,20 +6,7 @@ body {
 }
 
 /* Estilo para la sección del mapa */
-#mapa-barrio {
+#map {
     width: 100%;
-    height: 500px;
-    position: relative;
-}
-
-/* Estilos adicionales para la barra deslizante */
-#slider-bar {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.7);
-    border: 1px solid #ccc;
-    padding: 10px;
-    z-index: 1000;
+    height: 500px; /* Ajusta la altura del mapa según lo necesites */
 }
