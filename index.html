@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa del Barrio</title>
+    <title>Mi Barrio</title>
 
     <!-- Incluir Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     
-    <!-- Estilos propios -->
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <section class="foto-barrio">
+        <img src="Los_Periodistas.jpg" alt="Foto del Barrio" class="imagen-barrio">
+        <div class="texto-barrio">
+            <h1>Los Periodistas</h1>
+            <p>Localidad: Kennedy</p>
+        </div>
+    </section>
 
     <!-- Sección para el mapa -->
     <section id="mapa-barrio" style="height: 500px;">
@@ -22,5 +28,6 @@
 
     <!-- Incluir Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-slider@0.0.4/dist/leaflet-slider.min.js"></script>
 </body>
 </html>
